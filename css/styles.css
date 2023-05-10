@@ -1,0 +1,46 @@
+* h1,
+* h2, 
+* p{
+    text-align: center;
+    color: white;
+}
+body{
+    
+    background-color: #222;
+}
+
+header{
+    background-color: #00ab84;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.topNav{
+    float: right;
+    width: 35%;
+} 
+
+.topNav ul{
+    list-style: none;
+}
+
+.topNav ul li{
+    display: inline-block;
+    padding: 3%;
+}
+
+.topNav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.topNav ul li a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid beige;
+}
+
+footer{
+    width: 100%;
+    background-color: #00ab84;
+    
+}
